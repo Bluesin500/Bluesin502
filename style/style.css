@@ -1,0 +1,260 @@
+body {
+  background-image: url('https://shop.rammstein.de/front-dm11/assets/bg-BuTX17tB-0130.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  /*background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the background image */
+ /* background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.navbar-transparent {
+  background-color: transparent !important;
+  /* Optionally, you may want to set a custom border color for the navbar */
+  border-color: transparent !important;
+  color: white;
+}
+
+.navbar-transparent .navbar-nav .nav-link,
+.navbar-transparent .navbar-nav .nav-link svg {
+  color: white !important;
+  fill: white !important; /* Ensure SVG icons are filled with white color */
+}
+
+#pagetitle{
+  font-weight: bold;
+
+}
+
+/*Press Index CSS Begin */
+.index_card-body{
+  text-transform: uppercase;
+}
+.card-title{
+  text-transform: uppercase;
+}
+/*Press Index CSS Ends*/
+
+/*Press History CSS Begin */
+#history_subtitle{
+  text-transform: uppercase;
+  text-align: center;
+  color: red; 
+}
+
+#history_date{
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.historycard-custom-bg-color{
+  background-color: black;
+  color: white; /* Optional: set text color to white for better visibility */
+}
+/*Press History CSS Ends*/
+
+
+/*Press CSS Begin */
+.press_container {
+  display: flex;
+}
+
+.press_left-column, .pressright-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.press_left-column {
+  /* Style for the left column */
+}
+
+.press_right-column {
+  /* Style for the right column */
+}
+
+.presscard-custom-bg-color{
+  background-color: black;
+  color: white; /* Optional: set text color to white for better visibility */
+}
+.presscard-title{
+  text-transform: uppercase;
+
+}
+
+#exampleModal{
+  background-color: black;
+  color: rgb(10, 7, 7); /* Optional: set text color to white for better visibility */
+}
+/*Press CSS Ends */
+
+/*Login CSS Begins */
+.login_container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set height of container to full viewport height */
+}
+
+.login_container img {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  max-height: 100%; /* Ensure the image does not exceed the container height */
+}
+
+.login_card-title{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.logincard-custom-bg-color{
+  background-color: black;
+  color: white; /* Optional: set text color to white for better visibility */
+}
+/*Login CSS Ends */
+
+/*Reg CSS Begins */
+.reg_container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Set height of container to full viewport height */
+}
+
+.reg_container img {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  max-height: 100%; /* Ensure the image does not exceed the container height */
+}
+/*Reg CSS Ends */
+
+/*Footer CSS Begins */
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-image {
+  width: 100px; /* Adjust as needed */
+}
+
+.email-input input {
+  width: 150px; /* Adjust as needed */
+  padding: 5px;
+}
+
+.email-input button {
+  padding: 5px 10px;
+  background-color: #ffffff; /* Adjust as needed */
+  color: black;
+}
+
+.footer-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+/*Footer CSS Ends */
+
+
+.image-grid {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.column img {
+  display: block;
+  width: 100%; /* Make images fill their container */
+  margin-bottom: 10px; /* Add some space between images */
+}
+
+.container {
+  display: flex;
+}
+
+.image-container {
+  flex: 1; /* Take up half of the container */
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill its container */
+}
+
+.table-container {
+  flex: 1; /* Take up half of the container */
+}
+
+.table-container table {
+  width: 100%; /* Make the table fill its container */
+  border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.svg-icon-white {
+  background-color: white;
+}
+
+
+.altervative_body {
+  color: #000; /* Fekete szöveg */
+  background-color: #fff; /* Fehér háttér */
+  font-size: 18px; /* Nagyobb alap betűméret */
+  font-family: Arial, sans-serif; /* Könnyen olvasható betűtípus */
+}
+
+/* Nagy kontrasztú stílus */
+.altervative_high-contrast {
+  color: #fff; /* Fehér szöveg */
+  background-color: #000; /* Sötét háttér */
+}
+
+/* Nagybetűs stílus */
+.altervative_large-text {
+  font-size: 24px; /* Még nagyobb betűméret */
+}
+
+.login_container {
+  background-image: url('../img/login/login_bg.png'); /* Háttérkép beállítása */
+  background-size: cover; /* Teljes méretben kitölti a div-et */
+  background-position: center; /* Középre igazítja a képet */
+  display: flex; /* Flexbox használata a középre igazításhoz */
+  justify-content: center; /* Vízszintesen középre igazítja a tartalmat */
+  align-items: center; /* Függőlegesen középre igazítja a tartalmat */
+}
+
+.logincard-custom-bg-color {
+  background-color: rgba(255, 255, 255, 0.8); /* Átlátszósággal rendelkező fehér háttér */
+  border-radius: 10px; /* Lekerekített sarkok */
+  padding: 20px; /* Belső térköz */
+  color: black;
+}
+
+table {
+  width: 100%; /* Teljes szélesség */
+  color: white; /* Fehér szöveg minden cellában */
+}
+
+th {
+  font-weight: bold; /* Félkövér fejléc */
+  background-color: #555; /* Sötétebb szürke háttér a fejléchez */
+}
+
+tr:nth-child(odd) {
+  background-color: #999; /* Világosabb szürke a páratlan sorokhoz */
+}
+
+tr:nth-child(even) {
+  background-color: #777; /* Közepes szürke a páros sorokhoz */
+}

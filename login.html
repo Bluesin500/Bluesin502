@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rammstein - Login</title>
+    <!-- favicon-->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Bootstrap’s CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <!-- rammstein svg-->
+    <header style="width: 100%; margin: 10px;">
+        <svg id="logo-large" class="h-full w-full" viewBox="0 0 1800 155.948" preserveAspectRatio="none"><path id="Pfad_85" d="M682,517.283H841.975v80.892l22.631,74.1h-72.13l-24.6-71.387H757.461v71.387H682v-155Z" transform="translate(-682 -516.366)" fill="#fff"></path><path id="Pfad_86" d="M866.339,517l54.477,155.9h-71.84l-31.232-74.1v74.1H742.736V517Z" transform="translate(-545.937 -516.992)" fill="#fff"></path><path id="Pfad_87" d="M803.472,517H931.148l38.635,113.643L1009.324,517h73.941V672.9H1008.42V590.2l-26.867,82.7h-78.63L874.7,590.2v82.7H803.926L803.472,517Z" transform="translate(-409.874 -516.992)" fill="#fff"></path><path id="Pfad_88" d="M896.767,517h127.675l38.635,113.643L1102.619,517h73.94V672.9h-74.846V590.2l-26.867,82.7h-78.63l-28.224-82.7v82.7H897.22L896.767,517Z" transform="translate(-200.872 -516.992)" fill="#fff"></path><path id="Pfad_89" d="M1043.155,555.186l36.209.453V517h75.914v38.183h41.351v76.819h-41.351v40.9h-75.914v-40.9h-36.209V555.186Z" transform="translate(127.069 -516.992)" fill="#fff"></path><path id="Pfad_90" d="M987.307,517.283h165.858v60.071H1050.547l102.618,31.394v63.53H987.307V608.3h98.709L987.307,576V517.283Z" transform="translate(1.958 -516.366)" fill="#fff"></path><path id="Pfad_91" d="M1153.359,517.014h70.482v155.9h-70.482v-155.9Z" transform="translate(373.953 -516.968)" fill="#fff"></path><path id="Pfad_92" d="M1094.536,517h170.642v57.367H1171v15.842h77.724l-32.588,11.316H1171V613h94.182v59.909H1094.342L1094.536,517Z" transform="translate(241.74 -517)" fill="#fff"></path><path id="Pfad_93" d="M1182.976,517.456H1310.2l35.014,100.518V517H1359.7V672.9h-74.1l-25.057-79.082h-5.884V672.9h-71.677V517.456Z" transform="translate(440.302 -516.992)" fill="#fff"></path></svg>
+    </header>
+    <!--1.Navbar-->
+    <div><!--Navbar- div-->
+        <nav class="navbar navbar-expand-lg navbar-transparent">
+            <div class="container-fluid">
+                <p class="navbar-brand" id="pagetitle">Home</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="history.html">History</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="press.html">Press</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="login.html" >Login</a>
+                        </li>
+                    </ul>
+                    <!--social-->
+                    <form class="d-flex" role="social">
+                        <a href="https://www.facebook.com/Rammstein/" target="_blank"">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon-white" width="24" height="24" id="facebook_icon" viewBox="0 0 24 24"><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/></svg>
+                        Facebook</a>
+                        <a href="https://www.youtube.com/@RammsteinOfficial/videos" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon-white" width="24" height="24" viewBox="0 0 24 24"><path d="M10 9.333l5.333 2.662-5.333 2.672v-5.334zm14-9.333v24h-24v-24h24zm-4 12c-.02-4.123-.323-5.7-2.923-5.877-2.403-.164-7.754-.163-10.153 0-2.598.177-2.904 1.747-2.924 5.877.02 4.123.323 5.7 2.923 5.877 2.399.163 7.75.164 10.153 0 2.598-.177 2.904-1.747 2.924-5.877z"/></svg>
+                            Youtube</a>
+                        <a href="https://www.instagram.com/rammsteinofficial/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon-white" width="24" height="24" viewBox="0 0 24 24"><path d="M14.667 12c0 1.473-1.194 2.667-2.667 2.667-1.473 0-2.667-1.193-2.667-2.667 0-1.473 1.194-2.667 2.667-2.667 1.473 0 2.667 1.194 2.667 2.667zm3.846-3.232c.038.843.046 1.096.046 3.232s-.008 2.389-.046 3.233c-.1 2.15-1.109 3.181-3.279 3.279-.844.038-1.097.047-3.234.047-2.136 0-2.39-.008-3.232-.046-2.174-.099-3.181-1.132-3.279-3.279-.039-.845-.048-1.098-.048-3.234s.009-2.389.047-3.232c.099-2.152 1.109-3.181 3.279-3.279.844-.039 1.097-.047 3.233-.047s2.39.008 3.233.046c2.168.099 3.18 1.128 3.28 3.28zm-2.405 3.232c0-2.269-1.84-4.108-4.108-4.108-2.269 0-4.108 1.839-4.108 4.108 0 2.269 1.84 4.108 4.108 4.108 2.269 0 4.108-1.839 4.108-4.108zm1.122-4.27c0-.53-.43-.96-.96-.96s-.96.43-.96.96.43.96.96.96c.531 0 .96-.43.96-.96zm6.77-7.73v24h-24v-24h24zm-4 12c0-2.172-.009-2.445-.048-3.298-.131-2.902-1.745-4.52-4.653-4.653-.854-.04-1.126-.049-3.299-.049s-2.444.009-3.298.048c-2.906.133-4.52 1.745-4.654 4.653-.039.854-.048 1.127-.048 3.299 0 2.173.009 2.445.048 3.298.134 2.906 1.746 4.521 4.654 4.654.854.039 1.125.048 3.298.048s2.445-.009 3.299-.048c2.902-.133 4.522-1.745 4.653-4.654.039-.853.048-1.125.048-3.298z"/></svg>
+                            Instagram</a>
+                        <a href="https://twitter.com/RSprachrohr" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon-white" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0v24h24v-24h-24zm18.862 9.237c.208 4.617-3.235 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.079-4.03 3.198-4.03.944 0 1.797.398 2.396 1.037.748-.147 1.451-.42 2.085-.796-.245.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.44.656-.997 1.234-1.638 1.697z"/></svg>
+                            X</a>
+                        <a href="https://www.threads.net/@schwarz_rammstein" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon-white" width="24" height="24" viewBox="0 0 24 24"><path d="M13.718 10.528c0 .792-.268 1.829-.684 2.642-1.009 1.98-3.063 1.967-3.063-.14 0-.786.27-1.799.687-2.58 1.021-1.925 3.06-1.624 3.06.078zm10.282 1.472c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-5-1.194c0-3.246-2.631-5.601-6.256-5.601-4.967 0-7.744 3.149-7.744 7.073 0 3.672 2.467 6.517 7.024 6.517 2.52 0 4.124-.726 5.122-1.288l-.687-.991c-1.022.593-2.251 1.136-4.256 1.136-3.429 0-5.733-2.199-5.733-5.473 0-5.714 6.401-6.758 9.214-5.071 2.624 1.642 2.524 5.578.582 7.083-1.034.826-2.199.799-1.821-.756 0 0 1.212-4.489 1.354-4.975h-1.364l-.271.952c-.278-.785-.943-1.295-1.911-1.295-2.018 0-3.722 2.19-3.722 4.783 0 1.73.913 2.804 2.38 2.804 1.283 0 1.95-.726 2.364-1.373-.3 2.898 5.725 1.557 5.725-3.525z"/></svg>
+                            Threads</a>
+                    </form>
+                    <!--end of social-->
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--Navbar-div-end-->
+
+    <!--Login- Content -->
+    <div class="login_container">
+        <!-- login form- begins-->
+        <div class="logincard-custom-bg-color" style="width: 18rem;">
+            <form action="login" method="post">
+            <div class="card-body">
+                <h5 class="login_card-title">Login</h5>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Username:</label>
+                    <input type="text" name="username" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword2" class="form-label">Password:</label>
+                    <input type="password" name="password" class="form-control" id="inputPassword2" placeholder="Password">
+                </div>
+                <a href="reg.html" class="btn btn-outline-secondary">Create Account</a>
+                <input type="submit" class="btn btn-outline-secondary">
+            </div>
+            </form>
+        </div>
+        <!-- login form end-->
+    </div>
+    <!-- login form end-->
+    <!--Login- Content end-->
+
+    <!--Footer-begins -->
+    <footer class="footer">
+        <div class="footer-column">
+          <!-- First column with an image link -->
+          <a href="#">
+            <img src="img/favicon.png" alt="Image" class="footer-image">
+          </a>
+        </div>
+        
+        <div class="footer-column">
+          <!-- Second column with email input -->
+          <div class="email-input">
+            <p>Newsletter</p>
+            <input type="email" placeholder="Enter address">
+            <button type="button" class="btn btn-outline-secondary">Subscribe</button>
+          </div>
+        </div>
+        
+        <div class="footer-column">
+          <!-- Fourth column with 3 links -->
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-outline-secondary" href="index.html" target="_blank" role="button" aria-disabled="true">Home</a>
+            <a class="btn btn-outline-secondary" href="news.html" target="_blank" role="button" aria-disabled="true">News</a>
+            <a class="btn btn-outline-secondary" href="history.html" target="_blank" role="button" aria-disabled="true">History</a> 
+            <a class="btn btn-outline-secondary" href="press.html" target="_blank" role="button" aria-disabled="true">Press</a>
+            <a class="btn btn-outline-secondary" href="" target="_blank" role="button" aria-disabled="true">Login</a> 
+          </div>       
+        </div>
+        
+        <div class="footer-column">
+          <!-- Fourth column with 3 links -->
+         <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-outline-secondary" href="https://shop.rammstein.de/en/catalog/imprint" target="_blank" role="button" aria-disabled="true">Imprint</a>
+            <a class="btn btn-outline-secondary" href="https://shop.rammstein.de/en/catalog/privacy.html" target="_blank" role="button" aria-disabled="true">Data Privacy</a>
+            <a class="btn btn-outline-secondary" href="https://shop.rammstein.de/en/catalog/enquiry.html" target="_blank" role="button" aria-disabled="true">Autographs</a> 
+          </div>       
+        </div>
+      </footer>
+      <!--Footer-ends -->
+
+    <!-- Bootstrap’s JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
